@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="@drawable/bg"
+        >
+
+    <Button
+            android:id="@+id/people"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal|center"
+            android:textSize="50px"
+            android:layout_marginTop="50dip"
+                android:text="PEOPLE"
+            />
+    <Button
+            android:id="@+id/animal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal|center"
+            android:textSize="50px"
+            android:layout_marginTop="60dip"
+            android:text="ANIMAL"
+            />
+    <Button
+            android:id="@+id/ufo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal|center"
+            android:textSize="50px"
+            android:layout_marginTop="70dip"
+            android:text="UFO"
+            />
+
+
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="select mode"
+            android:textSize="100dip"
+            android:gravity="center_horizontal"
+            android:id="@+id/label"
+            android:textColor="#ffc181ee"
+            />
+</LinearLayout>
