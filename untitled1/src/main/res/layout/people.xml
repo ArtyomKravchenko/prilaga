@@ -2,9 +2,17 @@
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:orientation="vertical"
-              android:layout_width="match_parent"
-              android:layout_height="match_parent"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="@drawable/bg"
               >
+    <TextView android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:text="Select the action and move application in background"
+              android:textColor="#ffeee6e7"
+              android:layout_marginTop="30dip"
+              android:gravity="center_horizontal"
+            />
     <ImageButton
             android:id="@+id/burp"
             android:src="@drawable/burp"
@@ -23,7 +31,7 @@
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
             android:layout_gravity="center_horizontal|center"
-            android:layout_marginTop="80dip"
+            android:layout_marginTop="60dip"
 
             />
 </LinearLayout>
