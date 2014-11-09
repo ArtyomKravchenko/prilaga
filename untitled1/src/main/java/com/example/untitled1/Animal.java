@@ -21,7 +21,7 @@ public class Animal extends AShakeActivity {
             public void onClick(View v)
             {
                 try {
-                    mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.burp);
+                    mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.animalburp);
                     mediaPlayer.start();
                 } catch (Throwable t) {
                     System.out.print(t);
@@ -34,7 +34,7 @@ public class Animal extends AShakeActivity {
             public void onClick(View v)
             {
                 try {
-                    mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.bunch);
+                    mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.animalbunch);
                     mediaPlayer.start();
                 } catch (Throwable t) {
                     System.out.print(t);
